@@ -1,0 +1,600 @@
+body{
+  background:#F3FFFD;
+  font-family: 'Roboto', sans-serif;
+}
+.container-fluid::before{
+  padding: 0;
+  margin: 0;
+}
+.top{
+    background-color: #13B397;
+}
+
+.top-text{
+  padding-top: 12px;
+  font-size: 11px;
+}
+.top-text p{
+  display: inline-block;
+  float: right;
+}
+
+.bg{
+    margin: 50px auto;
+}
+.upper-side{
+  padding: 15px 0px;
+  background-color: #F3FFFD;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+
+}
+
+
+/* Start of Hamburger*/
+a,
+a:hover,
+a:focus{
+  color:inherit;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+#sidebar
+{
+  width: 280px;
+  background: #fff;
+  color: black;
+  transition: all 0.3s;
+  height: 100%;
+  position: fixed;
+  z-index: 999;
+  top: 0px;
+}
+.sidebar-logo{
+  width: 180px;
+  padding: 25px 20px;
+
+}
+.sidebar-up{
+    box-shadow: 0px 0px 10px -5px;
+}
+#sidebar.active{
+  margin-left: -290px;
+}
+#sidebar ul.components{
+  padding: 5px 0;
+  border-bottom: 1px solid #fff;
+}
+#sidebar ul li a{
+  padding: 5px;
+  font-size: 20px;
+  display:block;
+}
+#sidebar ul li a:hover{
+  color: #7386D5;
+  background: #fff;
+}
+#sidebar ul li.active>a,
+a[aria-expanded="true"]{
+  color:black;
+}
+a[data-toggle="collapse"]{
+  position: relative;
+}
+.side-arrow0{
+  font-size:80%;
+  padding-top: 4%;
+  padding-right: 8%;
+}
+.side-arrow1{
+  font-size:90%;
+  padding-top: 2%;
+  padding-right: 11%;
+}
+.side-arrow2{
+  font-size:75%;
+  padding-top:4% ;
+  padding-right: 12%;
+}
+
+ul ul a{
+  font-size:0.9em !important;
+  padding-left: 73px !important;
+  padding-bottom: 0px;
+}
+ul ul a:first-child{
+  margin-bottom: 0px;
+}
+ul ul ul a{
+  margin-left: 10px;
+}
+ul ul ul ul a{
+  margin-left: 15px;
+}
+
+ul ul ul ul ul li a{
+margin-left:20px;
+}
+ul ul ul ul ul ul li a{
+  margin-left: 25px;
+}
+.bar{
+  position: absolute;
+  top:0px;
+  cursor: pointer;
+  padding-right: 10px;
+  font-size: 35px;
+  color: #13B397;
+}
+.closebtn{
+  padding-top: 10px;
+  padding-right: 25px;
+  font-size: 35px;
+  cursor: pointer;
+  color: #13B397;
+}
+.sidebar-img{
+  padding: 8px 20px;
+  padding-right: 15px;
+}
+/* End of Hamburger*/
+
+.logo-up{
+  max-width: 200px;
+  min-width: 180px;
+  margin: 10px 10px;
+  padding-right: 20px;
+  padding-left: 10px;
+}
+.search{
+  min-width:220px;
+  width: auto;
+  border:1px solid #13B397;
+}
+.search input{
+  background: #F3FFFD;
+  border: 0px;
+  padding-left: 0px;
+}
+.search-btn{
+  padding-top: 10px;
+  border:0px;
+  padding-right: 0px;
+}
+.btn:focus {
+    outline: 0;
+    box-shadow: none;
+}
+.form-control:focus{
+  box-shadow: none;
+  background-color:#F3FFFD;
+}
+.cart{
+  width: 25px;
+  height: 25px;
+  margin: 0px 10px;
+  margin-top:10px;
+}
+.user{
+  color: #13B397;
+  margin-right: 5px;
+}
+.login-btn{
+  background-color: #F3FFFD;
+  height: 30px;
+  padding-top: 3px;
+  border-radius: 15px;
+  font-size: 15px;
+  color: #333;
+  width: 90px;
+  margin-top: 10px;
+}
+
+
+
+.cb-1{
+  padding: 15px;
+}
+
+.c1{
+  margin-top: -40px;
+  padding-bottom: 15px;
+  background:#FFFFFF;
+  border: 0px;
+  border-radius: 0px;
+  align-content: center;
+}
+.first-div{
+  padding: 0px;
+  padding-bottom: 50px;
+}
+.product-1{
+  width: 100%;
+  height: 90%;
+}
+.c2{
+  padding: 0px;
+  margin-top: -20px;
+
+
+}
+.cb-2{
+  padding: 0px;
+
+  min-width: 50px;
+}
+.product-2{
+  margin: 0px;
+  width: 100%;
+  max-width: 100px;
+}
+.second-div{
+  border-right: 12px solid #f1ECEC ;
+  padding: 0px ;
+  padding-top: 10px;
+  font-size: 15px;
+  line-height:15px;
+}
+.share{
+  color:  #e40819;
+}
+.second-div a{
+  color: #e40819;
+  font-size: 15px;
+  line-height: 20px;
+}
+.second-div-cntText{
+  border-bottom: 3px solid #f1ECEC;
+}
+.second-div-btText{
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+.h5-2{
+  margin-top: 20px;
+}
+.third-div{
+  padding: 10px;
+  margin: 0px;
+}
+.c3{
+  width: 100%;
+  height: 40%;
+  box-shadow: 0px 0px 3px;
+}
+.cb-3{
+  padding: 8px;
+
+}
+.shop-img{
+  width: 100%;
+  height: 50%;
+  margin-right: 10px;
+}
+.all-dropdown-btn{
+  font-size: 11px ;
+  padding-right: 0px;
+}
+.c3-text{
+  font-size: 12px;
+  color:  #cdc8c8;
+  padding-bottom: 10px;
+  border-bottom: 3px solid  #cdc8c8;
+
+}
+.buy-cart{
+  width:18px;
+}
+.chat-btn,
+.buy-btn{
+  border-radius: 10px;
+}
+
+
+.c4{
+  margin-top: 60px;
+  padding: 0px;
+  background:#FFFFFF;
+  border: 0px;
+
+}
+.c5{
+  margin-bottom: 20px;
+  height: 150px;
+  text-align: center;
+  box-shadow: 0px 0px 2px  ;
+  font-size: 16px;
+  line-height: 15px;
+}
+.cb-5{
+  padding: 8px;
+}
+.product-3{
+  width: 100%;
+  height: 80%;
+  padding-bottom: 5px;
+}
+
+
+
+
+
+
+.txt{
+  margin-top: 1rem;
+  margin-bottom: 10px;
+}
+.top-footer{
+  border-bottom: 1px solid #fff;
+  font-size: 11px;
+  background-color: #13B397;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.center-footer{
+ padding-top: 20px;
+ background-color: #13B397;
+}
+.center-footer .header{
+  font-size: 15px;
+  font-weight: 700;
+  margin-top: 12px ;
+  margin-bottom: 10px;
+}
+.footer-up-logo{
+  width: 140px;
+}
+.center-footer a{
+  color: #fff;
+  font-size: 12px;
+}
+.f-text{
+  font-size: 13px;
+}
+.fab{
+  font-size: 20px;
+  margin-right: 10px;
+}
+.end-footer{
+  background-color: #272727;
+  font-size: 12px;
+  padding: 5px 0px;
+}
+.f-left{
+  float: left;
+}
+.f-right{
+  float: right;
+}
+
+
+@media (max-width:1209px) and (min-width:992px){
+.chat-btn,
+.buy-btn{
+  font-size:70%;
+}
+.c2{
+  min-width: 60px;
+}
+}
+
+
+@media (max-width:991px) and (min-width:768px){
+
+  .bar{
+    padding-right: 20px;
+    padding-left: 25px;
+
+  }
+.logo-up{
+  display: block;
+  margin-right: 70px;
+  padding-bottom: 10px;
+}
+.search{
+  margin-top: 30px;
+  margin-left: 70px;
+}
+.cart{
+  margin-top: 15px;
+
+}
+.login-btn{
+  margin-top: 10px;
+}
+.second-div{
+  border-left: 12px solid #f1ECEC ;
+  border-right: none;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.third-div{
+  padding-top: 80px;
+  margin: auto;
+}
+.c3{
+  height: 100%;
+}
+
+.available-shop{
+  width: 50%;
+  height: 40%;
+  max-width: 120px;
+  margin-right: 10px;
+}
+  .end-footer{
+    height: auto;
+  }
+
+}
+
+@media (max-width:767px)  and (min-width:576px) {
+
+  .upper-side{
+    padding-top: 0px;
+  }
+  .bar{
+    padding-top:  17px;
+    padding-right: 20px;
+    padding-left: 10px;
+  }
+  #sidebar{
+    width:85%;
+  }
+  #sidebar.active{
+    margin-left: -86%;
+  }
+  .side-arrow0{
+    font-size:80%;
+    padding-top: 2%;
+    padding-right: 4%;
+  }
+  .side-arrow1{
+    font-size:90%;
+    padding-top: 0%;
+    padding-right: 4.5%;
+  }
+  .side-arrow2{
+    font-size:75%;
+    padding-top: 0% ;
+    padding-right: 4.5%;
+  }
+  .logo-up{
+    display: block;
+    min-width: 200px;
+    padding-right:  20px;
+    padding-top: 20px;;
+    padding-bottom: 20px;
+  }
+.c2{
+  max-width: 100px;
+  align-content: center;
+}
+  .second-div{
+    margin-top: 50px;
+    border-right: 0px;
+    margin-left: 15px;
+  }
+  .third-div{
+    padding-top: 50px;
+  }
+  .c3{
+    height: 100%;
+  }
+  .available-shop{
+    width: 50%;
+    height: 40%;
+    max-width: 120px;
+    margin-right: 10px;
+  }
+  .price{
+    padding-top: 0px;
+  }
+ .footer-up-logo{
+   padding-top: 0px;
+   width: 100px;
+ }
+
+}
+@media (max-width:575px) and (min-width:300px) {
+
+  .top-text{
+    font-size: 10px;
+  }
+  .upper-side{
+    padding-top: 0px;
+  }
+    .bar{
+      padding-top:  10px;
+      margin-bottom: 100px;
+      font-size: 30px;
+    }
+    .logo-up{
+      display: block;
+      min-width: 200px;
+      padding-left:  20px;
+      padding-top: 10px;
+      padding-bottom: 15px;
+
+    }
+  .search{
+    padding-right: 30px;
+  }
+  #sidebar{
+    width:85%;
+  }
+  #sidebar.active{
+    margin-left: -86%;
+  }
+  .side-arrow0{
+    font-size:80%;
+    padding-top: 2%;
+    padding-right: 5%;
+  }
+  .side-arrow1{
+    font-size:90%;
+    padding-top: 0%;
+    padding-right: 6%;
+  }
+  .side-arrow2{
+    font-size:75%;
+    padding-top: 0% ;
+    padding-right: 6%;
+  }
+
+.c2{
+  position: absolute;
+}
+
+  .first-div{
+ padding-bottom: 50px;
+  }
+.second-div{
+  margin-top: 60px;
+  border-right: 0px;
+  margin-left: 15px;
+  padding-right: 20px;
+}
+.third-div{
+  padding-top: 30px;
+}
+.c3{
+  height: 90%;
+}
+.available-shop{
+  width: 60%;
+  height: 40%;
+  max-width: 90px;
+  margin-right: 10px;
+}
+
+.center-footer{
+  text-align: center;
+}
+.center-footer ul{
+  padding-bottom: 10px;
+}
+ .end-footer{
+   font-size: 10px;
+   text-align: center;
+ }
+ .f-left{
+   float: none;
+   display: block;
+ }
+ .f-right{
+   float: none;
+ }
+}
+@media (max-width:307px) and (min-width:300px) {
+
+  .bar{
+    padding-top: 35px;
+  }
+  .logo-up{
+    padding-left: 40px;
+  }
+}
